@@ -1,0 +1,8 @@
+version: 2
+jobs:
+    build:
+        docker:
+         - image: circleci/python:3.6
+        steps:
+         - chekckout
+         - run: python test_calculation.py
