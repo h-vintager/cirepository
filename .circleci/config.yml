@@ -5,4 +5,4 @@ jobs:
          - image: circleci/python:3.6
         steps:
          - chekckout
-         - run: python test_calculation.py
+         - run: python test_calculations.py
